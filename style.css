@@ -1,0 +1,60 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus {
+    border-color: #000;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 0.5em;
+}
+
+table {
+    margin-top: 1em;
+    width: 100%;
+    padding: 1em;
+
+    border-radius: 1em;
+    border-collapse: collapse;
+}
+
+table tr th {
+    border: 1px solid #ccc;
+}
+
+table tbody td {
+    text-align: center;
+    border: 1px solid #ccc;
+}
