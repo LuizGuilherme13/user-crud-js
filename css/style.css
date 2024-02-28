@@ -1,4 +1,13 @@
+* {
+    font: 1em sans-serif;
+}
+
+body {
+    background-color: #052940;
+}
+
 form {
+    background-color: #E8E2D2;
     margin: 0 auto;
     width: 400px;
     padding: 1em;
@@ -23,7 +32,7 @@ label {
 }
 
 input {
-    font: 1em sans-serif;
+    /* font: 1em sans-serif; */
     width: 300px;
     box-sizing: border-box;
     border: 1px solid #999;
@@ -34,27 +43,43 @@ input:focus {
 }
 
 .button {
-    padding-left: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
 }
 
 button {
-    margin-left: 0.5em;
+    cursor: pointer;
 }
 
 table {
+    background-color: #E8E2D2;
     margin-top: 1em;
     width: 100%;
     padding: 1em;
-
+    border: none;
     border-radius: 1em;
     border-collapse: collapse;
 }
 
 table tr th {
-    border: 1px solid #ccc;
+    /* border-radius: 1em; */
+    border: none;
+}
+
+table thead {
+    border-bottom: 1px solid #ccc;
 }
 
 table tbody td {
+    /* margin: 1em 0px; */
     text-align: center;
-    border: 1px solid #ccc;
+    border: none;
+    /* border-bottom: 1px solid #ccc; */
 }
